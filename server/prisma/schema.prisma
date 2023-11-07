@@ -203,7 +203,7 @@ model Group {
 model Membership {
   playerId  Int
   groupId   Int
-  role      GroupRole @default(member)
+  role      GroupRole @default(member) // Maybe make Guest default?
   createdAt DateTime  @default(now()) @db.Timestamptz(6)
   updatedAt DateTime  @updatedAt @db.Timestamptz(6)
 
@@ -996,6 +996,7 @@ enum GroupRole {
   green
   grey
   guardian
+  guest
   guthixian
   harpoon
   healer

@@ -323,6 +323,7 @@ export const GroupRole = {
   GREEN: 'green',
   GREY: 'grey',
   GUARDIAN: 'guardian',
+  GUEST: 'guest',
   GUTHIXIAN: 'guthixian',
   HARPOON: 'harpoon',
   HEALER: 'healer',

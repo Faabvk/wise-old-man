@@ -119,6 +119,7 @@ const GroupRoleProps: GroupRolePropsMap = mapValues(
     [GroupRole.GREY]: { name: 'Grey' },
     [GroupRole.GUARDIAN]: { name: 'Guardian' },
     [GroupRole.GUTHIXIAN]: { name: 'Guthixian' },
+    [GroupRole.GUEST]: { name: 'Guest' },
     [GroupRole.HARPOON]: { name: 'Harpoon' },
     [GroupRole.HEALER]: { name: 'Healer' },
     [GroupRole.HELLCAT]: { name: 'Hellcat' },
